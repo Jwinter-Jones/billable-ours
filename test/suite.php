@@ -11,6 +11,8 @@ class AllTests extends TestSuite {
         $this->TestSuite('Run All Billable Our$ tests');
         $this->addFile('login_form_test.php');
         $this->addFile('hours_test.php');
+        $this->addFile('0_hours_test.php');
+        $this->addFile('wage_with_cents_test.php');
     }
 }
 ?>
